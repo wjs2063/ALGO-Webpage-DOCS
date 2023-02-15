@@ -10,11 +10,16 @@ https://github.com/tomasvotava/fastapi-sso
 ### KAKAO URL 
 
 https://developers.kakao.com/docs/latest/ko/kakaologin/common#additional-consent-scope
-
 읽어보자
+
 실제 서비스를 하면 정보파기규정을 지켜야하니 조심하자. 
 
+
+
 어쨋든 카카오Develope 를 가입하고 서비스가입을 하면 REST_API,CLIENT_SECRET 을 발급받을수있다 그것을 아래 해당 소스코드에 입력하자
+공유기 사용자라면 공유기 설정 홈페이지에 접속하여 포트포워딩을 해야한다.
+공유기  IP -> 내부 IP 변환 이므로  결국 외부사람이 접속할떄는 공유기 IP :PORT 로 접속하면 내부 IP:PORT 로 접속이 가능하게 포트포워딩을 해주면된다.
+또한 redirect url 설정 및 
 
 
 
@@ -38,7 +43,7 @@ app = FastAPI()
 sso = KakaoSSO(
     client_id=CLIENT_ID,
     client_secret=CLIENT_SECRET,
-    redirect_uri="http://172.30.1.56:50002/auth/callback",
+    redirect_uri="http://[포트포워딩한 너의 공유기 IP]:[너의 PORT]/auth/callback",
     allow_insecure_http=True,
 )
 
@@ -88,6 +93,17 @@ class KakaoSSO(SSOBase):
 
 
 ```
+
+### Trouble Shooting URL
+
+https://developers.kakao.com/docs/latest/ko/kakaologin/trouble-shooting
+
+
+
+
+
+
+
 
 ## 결과
 <img width="500" alt="스크린샷 2023-02-15 오후 1 35 58" src="https://user-images.githubusercontent.com/76778082/218931844-1779431a-c6bb-4197-bca7-d7959f2500c1.png">
