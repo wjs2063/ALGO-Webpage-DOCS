@@ -6,6 +6,19 @@
 https://github.com/tomasvotava/fastapi-sso
 ```
 
+
+### KAKAO URL 
+
+https://developers.kakao.com/docs/latest/ko/kakaologin/common#additional-consent-scope
+
+읽어보자
+실제 서비스를 하면 정보파기규정을 지켜야하니 조심하자. 
+
+어쨋든 카카오Develope 를 가입하고 서비스가입을 하면 REST_API,CLIENT_SECRET 을 발급받을수있다 그것을 아래 해당 소스코드에 입력하자
+
+
+
+
 ```
 
 """Kakao Login Example
