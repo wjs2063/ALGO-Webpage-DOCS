@@ -52,3 +52,6 @@ async def main():
     return {"message": "Welcome to ALGO_WEB_PAGE!!"}
 
 ```
+
+
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/76778082/218941379-e60a2ae2-3f66-4f82-ae17-ab2c81a42809.png">
