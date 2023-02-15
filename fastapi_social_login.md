@@ -16,10 +16,10 @@ https://developers.kakao.com/docs/latest/ko/kakaologin/common#additional-consent
 
 
 
-어쨋든 카카오Develope 를 가입하고 서비스가입을 하면 REST_API,CLIENT_SECRET 을 발급받을수있다 그것을 아래 해당 소스코드에 입력하자
-공유기 사용자라면 공유기 설정 홈페이지에 접속하여 포트포워딩을 해야한다.
-공유기  IP -> 내부 IP 변환 이므로  결국 외부사람이 접속할떄는 공유기 IP :PORT 로 접속하면 내부 IP:PORT 로 접속이 가능하게 포트포워딩을 해주면된다.
-또한 redirect url 설정 및 
+어쨋든 카카오Develope 를 가입하고 서비스가입을 하면 REST_API,CLIENT_SECRET 을 발급받을수있다 그것을 아래 해당 소스코드에 입력하자  
+공유기 사용자라면 공유기 설정 홈페이지에 접속하여 포트포워딩을 해야한다.  
+공유기  IP -> 내부 IP 변환 이므로  결국 외부사람이 접속할떄는 공유기 IP :PORT 로 접속하면 내부 IP:PORT 로 접속이 가능하게 포트포워딩을 해주면된다.  
+또한 redirect url 설정 및 OPEN_ID 신청 을 
 
 
 
