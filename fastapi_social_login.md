@@ -88,3 +88,9 @@ class KakaoSSO(SSOBase):
 
 
 ```
+
+## 결과
+<img width="500" alt="스크린샷 2023-02-15 오후 1 35 58" src="https://user-images.githubusercontent.com/76778082/218931844-1779431a-c6bb-4197-bca7-d7959f2500c1.png">
+
+
+
