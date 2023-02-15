@@ -12,7 +12,7 @@ https://github.com/tomasvotava/fastapi-sso
 https://developers.kakao.com/docs/latest/ko/kakaologin/common#additional-consent-scope
 읽어보자
 
-실제 서비스를 하면 정보파기규정을 지켜야하니 조심하자. 
+실제 서비스를 하면 정보파기규정을 지켜야하니 조심하자. + 실제는 PORT 80 번과 443 번을 써야함에 
 
 
 
